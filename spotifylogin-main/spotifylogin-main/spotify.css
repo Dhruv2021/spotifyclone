@@ -1,0 +1,1174 @@
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: sans-serif ;
+    
+}
+
+.nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    right: 0%;
+    width: 100%;
+    top: 0%;
+}
+
+.logo{
+
+    background-image: url(./assets/Screenshot\ 2021-05-13\ 003914.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 80px;
+    width: 245px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    position: relative;
+    width: 450px;
+    height: 100%;
+    margin: auto;
+    
+}
+    
+.container p{
+    position: relative;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    margin-top:33px;
+    margin-bottom: 10px;
+    letter-spacing: normal;
+    user-select: none;
+}
+
+a{
+    text-decoration: none;
+    user-select: none;
+}
+
+.btn_fb button{
+    background-color: #3b5998;
+    border: 2px solid #3b5998;
+    width: 450px;
+    height: 48px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+ .btn_fb button:hover{
+    background-color: #4364aa;
+ }
+
+.btn_apple button{
+    background-color: black;
+    border: 2px solid black;
+    width: 450px;
+    height: 48px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.btn_apple:hover{
+    opacity: 0.8;
+}
+
+.btn_google button{
+    background-color: transparent;
+    border: 2px solid black;
+    width: 450px;
+    height: 48px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(95, 94, 94);
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.btn_google button:hover{
+    background-color:  #616467;
+    color: white;
+    border: 2px solid #616467 ;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
+.or .left hr{
+    position: relative;
+    background-color: #ccc;
+    display: inline-block;
+    width: 190px;
+   margin-bottom:5px ;
+   
+}
+.or h5{
+    display: inline-block;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 15px;
+    user-select: none;
+    margin-bottom: 2px;
+}
+
+.or .right hr{
+    background-color: #ccc;
+    display: inline-block;
+    width: 190px;
+    margin-bottom: 5px;
+}
+
+.frm{
+    margin-left: 2%;
+}
+
+.frm label{
+    position: relative;
+    font-size:14px;  
+    font-weight: bold;
+    color: #616467 black ;
+    user-select: none;
+}
+
+input[type="email"]{
+    width: 419px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+input[type="password"]{
+    width: 419px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+input:focus, textarea:focus,select:focus
+{
+    border: 1px solid rgb(131, 130, 130) ;
+    outline-offset: 1 ;
+    outline: none ;
+}
+
+
+.f_p{
+    margin-top: 10px;
+    user-select: none;
+}
+.f_p a{
+    color: rgb(131, 130, 130);
+    text-decoration: underline;
+    
+    
+}
+.f_p a:hover{
+    color:#15883e;
+}
+.r_m{
+    user-select: none;
+}
+.r_m label{
+    margin-top: 50px;
+    color: rgb(131, 130, 130);
+    font-size: 16px;
+    display: inline-block;
+    font-weight: normal;
+    
+}
+
+.r_m input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    /* may not work in all browsers */
+    accent-color:#15883e;
+}
+
+.l_i{
+    display: inline;
+    float: right;
+    margin-top: 35px;
+}
+
+.l_i button{
+    background-color: #15883e;
+    border: 2px solid #15883e;
+    width: 220px;
+    height: 48px;
+    border-radius: 50px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight:bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    .l_i button:hover{
+    background-color: #22c45b ;
+    color:white;
+    border:2px solid #22c45b ;
+    }
+
+
+    .line hr{
+        background-color: #ccc;
+        width: 440px;
+        margin-top: 28px;
+    }
+
+    .s_u p{
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .s_u .btn_signup button{
+        background-color: transparent;
+        border: 2px solid black;
+        width: 450px;
+        height: 48px;
+        border-radius: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(95, 94, 94);
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .btn_signup a button:hover{
+        background-color:  #616467;
+        color: white;
+        border: 2px solid #616467 ;
+    }
+
+
+
+    /*for responsivness*/
+    @media screen and (max-width:320px) {
+
+        .container{
+            width: 290px ;
+            height: 100%;
+        }
+
+        .container p{
+            margin: 10px;
+        }
+
+        .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 42px;
+            width: 121px;
+
+        }
+        .nav{
+            border: 1px solid #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            right: 0%;
+            left: 0%;
+            
+        }
+
+        .btn_fb button{
+            width: 290px ;
+            height: 48px;
+            font-size: 14px;
+        }
+        .btn_apple button{
+            width: 290px ;
+            height: 48px;
+            font-size: 14px;
+        }
+        .btn_google button{
+            width: 290px ;
+            height: 48px;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .btn_signup button{
+            width: 290px ;
+            height: 48px;
+            font-size: 14px;
+        }
+        .or{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        
+        
+        .or .left hr{
+            background-color: #ccc;
+            display: inline-block;
+            width: 119px ;
+            margin-bottom: 5px;
+        }
+
+        .or h5{
+            display: inline-block;
+            padding: 5px;
+            font-family: sans-serif;
+            font-weight:bolder;
+            letter-spacing: 2px;
+            font-size: 13px;
+            user-select: none;
+        }
+        
+        .or .right hr{
+            background-color: #ccc;
+            display: inline-block;
+            width: 119px ;
+            margin-bottom: 5px;
+        }
+        
+        .frm{
+            margin-left: 2%;
+        }
+        
+        .frm label{
+            position: relative;
+            font-size:14px;  
+            font-weight: bold;
+            color: #616467 black ;
+            user-select: none;
+        }
+        
+        input[type="email"]{
+            width: 260px ;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+        }
+        
+        input[type="password"]{
+            width: 260px ;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            
+        }
+        
+     
+        .f_p{
+            margin-top: 10px;
+            user-select: none;
+        }
+
+        .f_p a{
+            color: rgb(131, 130, 130);
+            text-decoration: underline;
+            
+            
+        }
+
+        .f_p a:hover{
+            color:#15883e;
+        }
+
+        .r_m{
+            user-select: none;
+        }
+
+        .r_m label{
+            margin-top: 50px;
+            color: rgb(131, 130, 130);
+            font-size: 14px;
+            display: inline-block;
+            font-weight: normal;
+        }
+        
+        .r_m input[type="checkbox"]{
+            width: 20px;
+            height: 20px;
+        }
+        
+        
+        .l_i{
+            
+            margin-top: 10px;
+        }
+        
+        .l_i button{
+            background-color: #15883e;
+            border: 2px solid #15883e;
+            width: 290px ;
+            height: 48px;
+            border-radius: 50px;
+            color: white;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight:bold;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-bottom: 15px;
+            
+            }
+            
+            .l_i button:hover{
+            background-color: #22c45b ;
+            color:white;
+            border:2px solid #22c45b ;
+            }
+        
+        
+            .line hr{
+                background-color: #ccc;
+                width: 280px ;
+                margin-left: -2px;
+            }
+        
+            .s_u p{
+                font-size: 16px;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        
+            .s_u .btn_signup button{
+                background-color: transparent;
+                border: 2px solid black;
+                width: 290px ;
+                height: 48px;
+                border-radius: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: rgb(95, 94, 94);
+                font-size: 14px;
+                letter-spacing: 2px;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+        
+    }
+
+    @media (max-width:375px) and (min-width:321px){
+        
+        .container{
+            width: 345px ;
+            height: 100%;
+        }
+
+        .container p{
+            margin: 10px;
+        }
+
+        .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 42px;
+            width: 125px;
+
+        }
+
+        .nav{
+            border: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            right: 0%;
+            left: 0%;
+        }
+
+        .btn_fb button{
+            width: 345px ;
+            height: 48px;
+            font-size: 14px;
+        }
+
+        .btn_apple button{
+            width: 345px ;
+            height: 48px;
+            font-size: 14px;
+        }
+
+        .btn_google button{
+            width: 345px ;
+            height: 48px;
+            font-size: 14px;
+        }
+
+        .btn_signup button{
+            width: 345px ;
+            height: 48px;
+            font-size: 14px;
+        }
+
+        .or{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .or .left hr{
+            background-color: #ccc;
+            display: inline-block;
+            width: 140px ;
+        }
+
+        .or h5{
+            display: inline-block;
+            padding: 10px;
+            font-family: sans-serif;
+            font-weight:bolder;
+            letter-spacing: 2px;
+            font-size: 14px;
+            user-select: none;
+            margin-bottom: 2px;
+        }
+        
+        .or .right hr{
+            background-color: #ccc;
+            display: inline-block;
+            width: 140px ;
+        }
+        
+        .frm{
+            margin-left: 2%;
+        }
+        
+        .frm label{
+            position: relative;
+            font-size:14px;  
+            font-weight: bold;
+            color: #616467 black ;
+            user-select: none;
+        }
+        
+        input[type="email"]{
+            width: 315px ;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+        }
+        
+        input[type="password"]{
+            width: 315px ;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            
+        }
+        
+     
+        .f_p{
+            margin-top: 10px;
+            user-select: none;
+        }
+
+        .f_p a{
+            color: rgb(131, 130, 130);
+            text-decoration: underline;
+            
+            
+        }
+
+        .f_p a:hover{
+            color:#15883e;
+        }
+
+        .r_m{
+            user-select: none;
+        }
+
+        .r_m label{
+            margin-top: 50px;
+            color: rgb(131, 130, 130);
+            font-size: 14px;
+            display: inline-block;
+            font-weight: normal;
+        }
+        
+        .r_m input[type="checkbox"]{
+            width: 20px;
+            height: 20px;
+        }
+        
+        
+        .l_i{
+            display: inline;
+            float: right;
+            margin-top: 35px;
+        }
+        
+        .l_i button{
+            margin-right: 1px;
+            background-color: #15883e;
+            border: 2px solid #15883e;
+            width: 345px ;
+            height: 48px;
+            border-radius: 50px;
+            color: white;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight:bold;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: -30px;
+            }
+            
+            .l_i button:hover{
+            background-color: #22c45b ;
+            color:white;
+            border:2px solid #22c45b ;
+            }
+        
+        
+            .line hr{
+                background-color: #ccc;
+                width: 325px;
+            }
+        
+            .s_u p{
+                font-size: 16px;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        
+            .s_u .btn_signup button{
+                background-color: transparent;
+                border: 2px solid black;
+                width: 345px ;
+                height: 48px;
+                border-radius: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: rgb(95, 94, 94);
+                font-size: 14px;
+                letter-spacing: 2px;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+
+    }
+
+
+    @media (max-width:425px) and (min-width:376px) {
+        
+        .container{
+            width: 395px ;
+            height: 100%;
+        }
+
+        .container p{
+            margin: 15px;
+        }
+        .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 42px;
+            width: 125px;
+
+        }
+
+        .nav{
+            border: 1px solid #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            right: 0%;
+            left: 0%;
+        }
+
+        .btn_fb button{
+            width: 395px ;
+            height: 48px;
+            font-size: 14px;
+        }
+
+        .btn_apple button{
+            width: 395px ;
+            height: 48px;
+            font-size: 14px;
+        }
+
+        .btn_google button{
+            width: 395px ;
+            height: 48px;
+            font-size: 14px;
+        }
+
+        .btn_signup button{
+            width: 395px ;
+            height: 48px;
+            font-size: 14px;
+        }
+
+        .or{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .or .left hr{
+            background-color: #ccc;
+            display: inline-block;
+            width: 160px ;
+        }
+
+        .or h5{
+            display: inline-block;
+            padding: 10px;
+            font-family: sans-serif;
+            font-weight: bolder;
+            letter-spacing: 2px;
+            font-size: 14px;
+            user-select: none;
+        }
+        
+        .or .right hr{
+            background-color: #ccc;
+            display: inline-block;
+            width: 160px ;
+        }
+        
+        .frm{
+            margin-left: 2%;
+        }
+        
+        .frm label{
+            position: relative;
+            font-size:14px;  
+            font-weight: bold;
+            color: #616467 black ;
+            user-select: none;
+        }
+        
+        input[type="email"]{
+            width: 365px ;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+        }
+        
+        input[type="password"]{
+            width: 365px ;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            
+        }
+        
+     
+        .f_p{
+            margin-top: 10px;
+            user-select: none;
+        }
+
+        .f_p a{
+            color: rgb(131, 130, 130);
+            text-decoration: underline;
+            
+            
+        }
+
+        .f_p a:hover{
+            color:#15883e;
+        }
+
+        .r_m{
+            user-select: none;
+        }
+
+        .r_m label{
+            margin-top: 50px;
+            color: rgb(131, 130, 130);
+            font-size: 14px;
+            display: inline-block;
+            font-weight: normal;
+        }
+        
+        .r_m input[type="checkbox"]{
+            width: 20px;
+            height: 20px;
+        }
+
+        .l_i{
+            margin-top: 10px;
+        }
+        
+        .l_i button{
+            margin-right: 1px;
+            background-color: #15883e;
+            border: 2px solid #15883e;
+            width: 395px ;
+            height: 48px;
+            border-radius: 50px;
+            color: white;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight:bold;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-bottom: 15px;
+            }
+            
+            .l_i button:hover{
+            background-color: #22c45b ;
+            color:white;
+            border:2px solid #22c45b ;
+            }
+        
+        
+            .line hr{
+                background-color: #ccc;
+                width: 375px;
+                margin-bottom: 40px;
+            }
+        
+            .s_u p{
+                font-size: 16px;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        
+            .s_u .btn_signup button{
+                background-color: transparent;
+                border: 2px solid black;
+                width: 395px ;
+                height: 48px;
+                border-radius: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: rgb(95, 94, 94);
+                font-size: 14px;
+                letter-spacing: 2px;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+    }
+
+    @media (max-width:768px) and (min-width:426px){
+       
+        .container{
+            width: 450px ;
+            height: 100%;
+        }
+
+        .container p{
+            margin: 15px;
+        }
+        .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 42px;
+            width: 125px;
+
+        }
+
+        .nav{
+            border: 1px solid #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            right: 0%;
+            left: 0%;
+        }
+
+        .btn_fb button{
+            width: 450px ;
+            height: 48px;
+            font-size: 16px;
+        }
+
+        .btn_apple button{
+            width: 450px ;
+            height: 48px;
+            font-size: 16px;
+        }
+
+        .btn_google button{
+            width: 450px ;
+            height: 48px;
+            font-size: 16px;
+        }
+
+        .btn_signup button{
+            width: 450px ;
+            height: 48px;
+            font-size: 16px;
+        }
+
+        .or{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .or .left hr{
+            background-color: #ccc;
+            display: inline-block;
+            width: 195px ;
+        }
+
+        .or h5{
+            display: inline-block;
+            padding: 10px;
+            font-family: sans-serif;
+            font-weight: bolder;
+            letter-spacing: 2px;
+            font-size: 16px;
+            user-select: none;
+        }
+        
+        .or .right hr{
+            background-color: #ccc;
+            display: inline-block;
+            width: 195px ;
+        }
+        
+        .frm{
+            margin-left: 2%;
+        }
+        
+        .frm label{
+            position: relative;
+            font-size:16px;  
+            font-weight: bold;
+            color: #616467 black ;
+            user-select: none;
+        }
+        
+        input[type="email"]{
+            width: 420px ;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+        }
+        
+        input[type="password"]{
+            width: 420px ;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            
+        }
+        
+     
+        .f_p{
+            margin-top: 10px;
+            user-select: none;
+        }
+
+        .f_p a{
+            color: rgb(131, 130, 130);
+            text-decoration: underline;
+            
+            
+        }
+
+        .f_p a:hover{
+            color:#15883e;
+        }
+
+        .r_m{
+            user-select: none;
+        }
+
+        .r_m label{
+            margin-top: 50px;
+            color: rgb(131, 130, 130);
+            font-size: 16px;
+            display: inline-block;
+            font-weight: normal;
+        }
+        
+        .r_m input[type="checkbox"]{
+            width: 20px;
+            height: 20px;
+        }
+
+        .l_i{
+            display: inline;
+            float: right;
+            margin-top: 35px;
+        }
+        
+        .l_i button{
+            background-color: #15883e;
+            border: 2px solid #15883e;
+            width: 210px;
+            height: 48px;
+            border-radius: 50px;
+            color: white;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight:bold;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-bottom: 20px;
+            }
+            
+            .l_i button:hover{
+            background-color: #22c45b ;
+            color:white;
+            border:2px solid #22c45b ;
+            }
+        
+        
+            .line hr{
+                background-color: #ccc;
+                width: 430px;
+                margin-bottom: 35px;
+                
+            }
+        
+            .s_u p{
+                font-size: 16px;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        
+            .s_u .btn_signup button{
+                background-color: transparent;
+                border: 2px solid black;
+                width: 450px ;
+                height: 48px;
+                border-radius: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: rgb(95, 94, 94);
+                font-size: 16px;
+                letter-spacing: 2px;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+    }
+
+
+    @media  (max-width:766px) and (min-width:500px){
+
+        .l_i{
+            margin-top: 10px;
+        }
+        
+        .l_i button{
+            margin-right: 1px;
+            background-color: #15883e;
+            border: 2px solid #15883e;
+            width: 450px ;
+            height: 48px;
+            border-radius: 50px;
+            color: white;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight:bold;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-bottom: 15px;
+            }
+            
+            .l_i button:hover{
+            background-color: #22c45b ;
+            color:white;
+            border:2px solid #22c45b ;
+            }
+        
+    }

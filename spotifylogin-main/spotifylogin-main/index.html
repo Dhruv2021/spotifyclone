@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+  <head>
+    <title>Spotify</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/icon.png">
+    <link rel="stylesheet" type="text/css" href="spotify.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div class="nav">
+        <a href = "#">
+        <div class="logo"></div></a>
+    </div>
+
+    <div class="container">
+        <p>
+            To continue, log in to Spotify.
+        </p>
+           
+            
+
+            <div class="frm">
+              <form class="container" action="main.php" >
+                <div class="dta">
+                <label for="email">
+                  Email address or username
+                </label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Email address or username" autocomplete="off" required>
+                <br>
+                <label for="passwd">
+                  Password
+                </label>
+                <br>
+                <input type="password" id="passwd" name="passwd" placeholder="Password" required>
+          
+              <div class="r_m">
+                <input type="checkbox" value="r_m" id="r_m" name="Remember me" checked>
+                <label for="r_m">Remember me</label>
+              
+              <div class="l_i">
+                <button type="submit" id="login" href="#">Log in</button>
+              </div>
+              </div>
+              <div class="line">
+                <hr>
+              </div>
+              </form>
+            </div>
+            <div class="s_u">
+              <p>Dont have an account?</p>
+              <div class="btn_signup">
+                <a href="signUp.html"> <button>Sign up for spotify</button></a>
+              </div>
+            </div>
+    </div>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./db.js"></script> -->
+
+
+  </body>
+</html>
